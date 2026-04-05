@@ -91,3 +91,9 @@ Benchmarks compare this tokenizer against tiktoken on the [Enwik8](http://mattma
 
 
 ---
+
+## AI Use Disclosure
+
+The benchmark scripts (`benchmarker.py` , `tiktoken_bench.py`) and the tiktoken list (`oai_links.md`) were written using generative AI. The converter script (`convert.py`) was debugged using AI assistance.
+
+---
