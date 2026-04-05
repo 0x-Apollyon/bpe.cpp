@@ -4,6 +4,9 @@ A fast BPE tokenizer which supports many encodings, written in C++. Reads a text
 
 1.5x faster than OpenAI's [tiktoken](https://github.com/openai/tiktoken) in most cases. (thread-for-thread)
 
+<img width="351" height="411" alt="image" src="https://github.com/user-attachments/assets/1b61efcf-c677-49ff-9797-0c6ddd9d6f62" />
+
+
 ---
 
 ## Requirements
@@ -83,5 +86,8 @@ The output file can then be passed directly via `-m`.
 ## Benchmarks
 
 Benchmarks compare this tokenizer against tiktoken on the [Enwik8](http://mattmahoney.net/dc/textdata.html) dataset (100 MB Wikipedia corpus).
+
+<img width="1220" height="422" alt="image" src="https://github.com/user-attachments/assets/0bff1e91-81a0-48e2-a157-5469eaeac976" />
+
 
 ---
