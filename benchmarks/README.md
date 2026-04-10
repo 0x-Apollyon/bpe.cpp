@@ -12,9 +12,10 @@ pip install -r requirements.txt
 **3. Place the required files in the same directory as the script**
 - Merge list ex: `gpt4_tokenizer_data.txt`
 - Special tokens ex: `special.txt` (leave empty if no special tokens)
-- tiktoken reference script ex: `tiktoken_bench.py`
+- tiktoken reference script ex: `tiktoken_bench.py` or `tiktoken_bench_t4t.py`
 
 **4. Run**
 ```
-python bench.py
+python bench.py //best case comparison
+python benchmark_thread_for_thread.py //thread for thread scaling and sizing comparison
 ```
