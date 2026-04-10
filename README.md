@@ -100,6 +100,6 @@ Scaling: bpe.cpp scales significantly better with added threads, whereas tiktoke
 
 ## AI Use Disclosure
 
-The benchmark scripts (`benchmarker.py` , `tiktoken_bench.py`) and the tiktoken list (`oai_links.md`) were written using generative AI. The converter script (`convert.py`) was debugged using AI assistance.
+The benchmark scripts (`benchmarker.py` , `tiktoken_bench.py` , `benchmark_thread_for_thread.py`) and the tiktoken list (`oai_links.md`) were written using generative AI. The converter script (`convert.py`) was debugged using AI assistance.
 
 ---
